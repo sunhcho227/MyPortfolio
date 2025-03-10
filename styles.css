@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui,
+    Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+  overflow-x: hidden; /* 가로 스크롤 방지 */
+}
+
+.container {
+  max-width: 935px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: white;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.search-bar {
+  background-color: #efefef;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 90%;
+  max-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-left: 8px;
+}
+
+.profile-section {
+  display: flex;
+  padding: 30px 0;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 30px;
+  background: linear-gradient(
+    45deg,
+    #90c3fc,
+    #6aa8fc,
+    #4f91fc,
+    #377afc,
+    #2463eb
+  );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.profile-picture img {
+  width: 144px;
+  height: 144px;
+  border-radius: 50%;
+  border: 2px solid white;
+  object-fit: cover;
+  object-position: -50px center;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.username {
+  font-size: 28px;
+  font-weight: 300;
+  margin-right: 20px;
+}
+
+.action-button {
+  background-color: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.stats {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.stat-item {
+  margin-right: 40px;
+}
+
+.bio {
+  margin-bottom: 5px;
+}
+
+.website a {
+  color: #00376b;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* 스크롤 관련 스타일 수정 */
+.container-scroll {
+  display: flex;
+  height: auto;
+}
+
+.scroll-left {
+  width: 50%;
+  height: auto;
+}
+
+.scroll-left .section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+/* 오른쪽 이미지 효과 */
+.scroll-right {
+  width: 50%;
+  position: sticky;
+  top: 100px;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  perspective: 1000px; /* 3D 효과 위한 perspective 추가 */
+}
+
+.image-container {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-image {
+  position: absolute;
+  width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  opacity: 0;
+  transform: translateZ(-100px) scale(0.8);
+  transition: opacity 0.5s ease-in-out, transform 0.7s ease-in-out;
+  pointer-events: none; /* 이미지가 클릭 안되도록 */
+}
+
+.slide-image.active {
+  opacity: 1;
+  transform: translateZ(0) scale(1);
+  z-index: 1;
+}
+
+.slide-image.exit {
+  opacity: 0;
+  transform: translateZ(-200px) scale(0.6);
+}
+
+.slide-image.enter {
+  opacity: 0;
+  transform: translateZ(-100px) scale(0.8);
+}
+
+/* 스킬 로고 관련 추가 스타일 */
+.story-highlights {
+  display: flex;
+  padding: 20px 0;
+  overflow-x: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.highlight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px 15px 10px;
+  width: 70px;
+}
+
+.highlight a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+}
+
+.highlight-image {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  background-color: #f8f8f8;
+  overflow: hidden;
+}
+
+.skill-logo {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.highlight a:hover .skill-logo {
+  transform: scale(1.1);
+}
+
+.highlight a:hover .highlight-title {
+  font-weight: 800;
+}
+
+.highlight-title {
+  font-size: 15px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  transition: font-weight 0.3s ease;
+}
+
+/* 탭 영역 */
+.content-tabs {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #dbdbdb;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+  color: #8e8e8e;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0 30px;
+}
+
+.tab.active {
+  color: #262626;
+  border-top: 1px solid #262626;
+  margin-top: -1px;
+}
+
+.tab i {
+  margin-right: 6px;
+}
+
+/* 반응형 미디어 쿼리 추가 */
+@media screen and (max-width: 768px) {
+  .story-highlights {
+    justify-content: space-around;
+  }
+
+  .highlight {
+    width: 60px;
+    margin: 0 5px 10px 5px;
+  }
+
+  .highlight-image {
+    width: 56px;
+    height: 56px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .highlight {
+    width: 50px;
+  }
+
+  .highlight-image {
+    width: 46px;
+    height: 46px;
+  }
+
+  .highlight-title {
+    font-size: 10px;
+  }
+}
