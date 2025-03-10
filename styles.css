@@ -136,10 +136,11 @@ header {
 .container-scroll {
   display: flex;
   height: auto;
+  gap: 20px;
 }
 
 .scroll-left {
-  width: 50%;
+  width: 40%;
   height: auto;
 }
 
@@ -151,9 +152,29 @@ header {
   font-size: 2rem;
 }
 
-/* 오른쪽 이미지 효과 */
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.link-text {
+  font-size: 1rem;
+  display: inline;
+}
+
+.link-text a {
+  font-size: 1rem;
+  display: inline;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
 .scroll-right {
-  width: 50%;
+  width: 60%;
   position: sticky;
   top: 100px;
   height: calc(100vh - 100px);
@@ -161,12 +182,13 @@ header {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  perspective: 1000px; /* 3D 효과 위한 perspective 추가 */
+  perspective: 1000px;
+  margin: 0 auto;
 }
 
 .image-container {
   position: relative;
-  width: 80%;
+  width: 100%;
   height: 80%;
   display: flex;
   justify-content: center;
@@ -181,7 +203,8 @@ header {
   opacity: 0;
   transform: translateZ(-100px) scale(0.8);
   transition: opacity 0.5s ease-in-out, transform 0.7s ease-in-out;
-  pointer-events: none; /* 이미지가 클릭 안되도록 */
+  pointer-events: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .slide-image.active {
