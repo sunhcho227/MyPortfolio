@@ -1,3 +1,16 @@
+// 이메일 보내기
+document
+  .getElementById("contact-button")
+  .addEventListener("click", function () {
+    const email = "ihateundefined@gmail.com";
+    const subject = encodeURIComponent("Contact");
+    const body = encodeURIComponent("Hello,");
+    window.open(
+      `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`,
+      "_blank"
+    );
+  });
+
 // 탭 전환 기능
 document.querySelectorAll(".tab").forEach((tab) => {
   tab.addEventListener("click", () => {
