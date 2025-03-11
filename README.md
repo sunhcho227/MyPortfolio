@@ -13,7 +13,7 @@
 
 안녕하세요! **사용자 경험을 중요시하며 깔끔하고 효율적인 코드를 작성하기 위해 노력하는 개발자 조선희**입니다.
 
-이 레포지토리는 제 개발 역량과 프로젝트 경험을 소개하는 포트폴리오 웹사이트를 담고 있습니다. 인스타그램과 슬랙에서 영감을 받아 디자인되었으며, HTML, CSS, JavaScript를 활용하여 반응형 웹사이트로 구현했습니다.
+이 레포지토리는 제 개발 역량과 프로젝트 경험을 소개하는 포트폴리오 웹사이트를 담고 있습니다. 인스타그램과 슬랙에서 영감을 받아 디자인했으며, HTML, CSS, JavaScript를 활용하여 반응형 웹사이트로 구현했습니다.
 
 ## 📚 기술 스택
 
@@ -24,6 +24,7 @@
   <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" width="50" height="50" alt="Java">
   <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="50" height="50" alt="HTML">
   <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="50" height="50" alt="CSS">
+  <img src="https://ko.legacy.reactjs.org/" width="50" height="50" alt="React">
   <img src="https://www.svgrepo.com/show/331760/sql-database-generic.svg" width="50" height="50" alt="SQL">
   <img src="https://www.svgrepo.com/show/373845/mongo.svg" width="50" height="50" alt="NoSQL">
   <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" width="50" height="50" alt="Azure">
@@ -84,11 +85,13 @@ JS Framework Meteor 기반으로 개발한 전자 스탬프 서비스입니다.
 
 **사용 기술:**
 - JavaScript
+- React
 - HTML5
 - CSS3
 - TailwindCSS
 - AWS MongoDB
 - Azure Blob Storage
+- Meteor
 
 **주요 기능:**
 - 전자 스탬프 생성 및 관리
@@ -101,7 +104,7 @@ JS Framework Meteor 기반으로 개발한 전자 스탬프 서비스입니다.
 저의 다음 프로젝트가 곧 공개됩니다! 기대해 주세요.
 
 ## 🎓 자격증
-- 정보처리기사 필기
+- 정보처리기사 필기 !!
 - ADsP
 
 ## 📂 프로젝트 폴더 구조
