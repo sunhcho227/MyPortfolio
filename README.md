@@ -75,6 +75,8 @@ App Inventor로 개발한 음성 어플리케이션으로, 음성 녹음, STT(Sp
 - 모던 UI 디자인
 - 사용자 친화적 레이아웃
 
+**[노션에서 자세히 보기]([https://chestnut-fiber-71d.notion.site/All-About-Voice-1a112efc9e2b8034a470ec6605461a80#1a112efc9e2b81058fb1e063be336b61](https://chestnut-fiber-71d.notion.site/My-Portfolio-1b212efc9e2b80489e2ce54ceb07dc5c))**
+
 ### 3. Baro Stamping
 ![Baro Stamping](./sources/baroStamping.jpg)
 
@@ -112,8 +114,8 @@ MyPortfolio/
 │   ├── myPortfolio.png
 │   ├── myPortfolio.png
 │   ├── favicon.png
-├── [README.md](http://_vscodecontentref_/1)
-├── [index.html](http://_vscodecontentref_/2)
+├── README.md
+├── index.html
 ├── styles.css
 ├── scripts.js
 ```
