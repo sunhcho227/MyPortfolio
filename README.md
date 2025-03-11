@@ -29,6 +29,9 @@
 
 App Inventor로 개발한 음성 어플리케이션으로, 음성 녹음, STT(Speech-to-Text) 및 이메일 발송 기능을 원스톱으로 제공합니다.
 
+**사용 기술:**
+- APP Inventor
+
 **주요 기능:**
 - 음성 녹음 및 저장
 - 음성을 텍스트로 변환(STT)
@@ -56,6 +59,14 @@ App Inventor로 개발한 음성 어플리케이션으로, 음성 녹음, STT(Sp
 ![Baro Stamping](./sources/baroStamping.jpg)
 
 JS Framework Meteor 기반으로 개발한 전자 스탬프 서비스입니다.
+
+**사용 기술:**
+- JavaScript
+- HTML5
+- CSS3
+- TailwindCSS
+- AWS MongoDB
+- Azure Blob Storage
 
 **주요 기능:**
 - 전자 스탬프 생성 및 관리
