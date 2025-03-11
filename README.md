@@ -2,7 +2,7 @@
 
 ![포트폴리오 메인 이미지](./sources/myPortfolio.png)
 
-## 📫 Link
+## 📫 Link to
 
 - **Homepage**: https://sunhcho227.github.io/MyPortfolio/
 - **Notion**: 
