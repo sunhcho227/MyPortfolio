@@ -2,6 +2,13 @@
 
 ![포트폴리오 메인 이미지](./sources/myPortfolio.png)
 
+## 📫 Link
+
+- **Homepage**: https://sunhcho227.github.io/MyPortfolio/
+- **Notion**: 
+- **이메일**: ihateundefined@gmail.com
+- **GitHub**: [github.com/sunhcho227](https://github.com/sunhcho227)
+
 ## 소개 👋
 
 안녕하세요! **사용자 경험을 중요시하며 깔끔하고 효율적인 코드를 작성하기 위해 노력하는 개발자 조선희**입니다.
@@ -95,10 +102,7 @@ JS Framework Meteor 기반으로 개발한 전자 스탬프 서비스입니다.
 - 정보처리기사 필기
 - ADsP
 
-## 📫 연락처
 
-- **이메일**: ihateundefined@gmail.com
-- **GitHub**: [github.com/sunhcho227](https://github.com/sunhcho227)
 
 ## 💡 포트폴리오 웹사이트 실행하기
 
