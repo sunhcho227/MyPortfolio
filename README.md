@@ -102,21 +102,21 @@ JS Framework Meteor 기반으로 개발한 전자 스탬프 서비스입니다.
 - 정보처리기사 필기
 - ADsP
 
+## 📂 프로젝트 폴더 구조
 
-
-## 💡 포트폴리오 웹사이트 실행하기
-
-1. 저장소를 클론합니다.
-   ```bash
-   git clone https://github.com/sunhcho227/MyPortfolio.git
-   ```
-
-2. 클론한 디렉토리로 이동합니다.
-   ```bash
-   cd MyPortfolio
-   ```
-
-3. `index.html` 파일을 브라우저에서 엽니다.
+```markdown
+MyPortfolio/
+├── sources/
+│   ├── allAboutVoice.jpg
+│   ├── baroStamping.jpg
+│   ├── myPortfolio.png
+│   ├── myPortfolio.png
+│   ├── favicon.png
+├── [README.md](http://_vscodecontentref_/1)
+├── [index.html](http://_vscodecontentref_/2)
+├── styles.css
+├── scripts.js
+```
 
 ---
 
