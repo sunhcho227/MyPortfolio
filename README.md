@@ -5,7 +5,7 @@
 ## 📫 Link to
 
 - **Homepage**: https://sunhcho227.github.io/MyPortfolio/
-- **Notion**: 
+- **Notion**: https://chestnut-fiber-71d.notion.site/My-Portfolio-1b212efc9e2b80489e2ce54ceb07dc5c
 - **이메일**: ihateundefined@gmail.com
 - **GitHub**: [github.com/sunhcho227](https://github.com/sunhcho227)
 
