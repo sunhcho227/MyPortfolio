@@ -315,6 +315,134 @@ p {
   margin-right: 6px;
 }
 
+.container-scroll {
+  display: flex;
+  height: auto;
+  gap: 40px;
+  margin: 60px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.scroll-left {
+  width: 45%;
+  padding-right: 20px;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  padding: 0 20px;
+}
+
+/* 슬랙 스타일의 섹션 제목 */
+.section h5 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #1d1c1d;
+  line-height: 1.2;
+}
+
+/* 슬랙 스타일의 서브타이틀 */
+.section .subtitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #454245;
+  margin-bottom: 1rem;
+}
+
+/* 슬랙 스타일의 설명 텍스트 */
+.section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
+  color: #454245;
+}
+
+/* 특징 리스트 스타일 */
+.features-list {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.features-list li {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  position: relative;
+  list-style-type: none;
+}
+
+.features-list li:before {
+  content: "✓";
+  color: #007a5a;
+  font-weight: bold;
+  display: inline-block;
+  width: 1.5rem;
+  margin-left: -1.5rem;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 1.5rem 0;
+}
+
+.tech-tag {
+  background-color: #f4ede4;
+  color: #4a154b;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.link-container {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.link-button {
+  display: inline-block;
+  background-color: #4a154b;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 20px;
+  transition: background-color 0.2s;
+  font-size: 0.9rem;
+}
+
+.link-button:hover {
+  background-color: #611f69;
+}
+
+/* 링크 텍스트 스타일 */
+.link-text {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.link-text a {
+  color: #1264a3;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.link-text a:hover {
+  text-decoration: underline;
+}
+
 /* 반응형 미디어 쿼리 추가 */
 @media screen and (max-width: 768px) {
   .story-highlights {
