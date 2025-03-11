@@ -112,7 +112,7 @@ MyPortfolio/
 │   ├── allAboutVoice.jpg
 │   ├── baroStamping.jpg
 │   ├── myPortfolio.png
-│   ├── myPortfolio.png
+│   ├── comingSoon.webp
 │   ├── favicon.png
 ├── README.md
 ├── index.html
